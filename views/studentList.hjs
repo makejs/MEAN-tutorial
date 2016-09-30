@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sudent Data</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    <script>
+        var foo ="{{ title }}";
+        var bar = studentlist;
+    </script>
+  </head>
+  {{#bug}}
+  {{/bug}}
+  <body>
+    <h1>Students</h1>
+    <p>Welcome to {{ title }}</p>
+    <p>The following is using studentlist.0.student studentlist.0.street etc etc</p>
+    <p>
+        <b> Srudent {{studentlist.0.student}} lives at {{studentlist.0.street}}, {{studentlist.0.city}}, {{sudentlist.0.state}}.</b>
+    </p
+    <p>The following is done using #studentlist student /student</p>
+    {{#studentlist}}
+        <b>Student {{student}} lives at {{street}}, {{city}}, {{state}}. </b><br>
+    {{/studentlist}}
+  </body>
+</html>

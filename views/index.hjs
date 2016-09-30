@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+    <p><a href="/thelist/">List of Students</a></p>
+    <p><a href="/newstudent/">Add new Student</a></p>
+    <p>This tutorial is from <a href = "https://youtu.be/Do_Hsb_Hs3c">here</a></p>
+    <p>This tutorial shows how to use mongodb database. I also learned different ways to render the information to the html web page using hogan with is based on mustache. There is a little example of Hogan templating on the 'List of Students' page (/thelist) Eveything else is pretty straight forward.</p>
+    
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sudent Data</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>New {{ title }}</h1>
+    
+    <form action='/addstudent' method="post">
+        Name:<br>
+        <input type="text" name="student">
+        <br>
+        Street:<br>
+        <input type="text" name="street">
+        <br>
+        City:<br>
+        <input type="text" name="city">
+        <br>
+        State:<br>
+        <input type="text" name="state">
+        <br>
+        Gender:<br>
+        <input type="radio" name="sex" value="male" checked> Male
+        <input type="radio" name="sex" value="female"> Female
+        <br>
+        gpa:<br>
+        <input type="number" min="0" max="4" step="0.1" name="gpa">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
