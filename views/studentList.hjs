@@ -3,10 +3,6 @@
   <head>
     <title>Sudent Data</title>
     <link rel='stylesheet' href='/stylesheets/style.css' />
-    <script>
-        var foo ="{{ title }}";
-        var bar = studentlist;
-    </script>
   </head>
   {{#bug}}
   {{/bug}}
